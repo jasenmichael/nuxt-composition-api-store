@@ -5,12 +5,20 @@
       <h1 class="title">About</h1>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://gist.github.com/jasenmichael/e525c07873677db6a83a72f84157102e"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Gist
+        </a>
+        <a
+          href="https://github.com/jasenmichael/nuxt-composition-api-store"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Repo
         </a>
         <nuxt-link class="button--green" to="/"> Home </nuxt-link>
         <button class="button--grey" @click="count++">increment</button>
